@@ -1,0 +1,43 @@
+{
+  "hash": "8d2e8dca",
+  "configHash": "ae7c559a",
+  "lockfileHash": "8db74c84",
+  "browserHash": "ba110140",
+  "optimized": {
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "0a354fa0",
+      "needsInterop": false
+    },
+    "@angular/google-maps": {
+      "src": "../../../../../node_modules/@angular/google-maps/fesm2022/google-maps.mjs",
+      "file": "@angular_google-maps.js",
+      "fileHash": "f9141920",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "85ab71ea",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "f98c5536",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-WGOMBPZ3": {
+      "file": "chunk-WGOMBPZ3.js"
+    },
+    "chunk-T2GGA4JY": {
+      "file": "chunk-T2GGA4JY.js"
+    },
+    "chunk-KJBDP7EP": {
+      "file": "chunk-KJBDP7EP.js"
+    }
+  }
+}

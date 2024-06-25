@@ -1,0 +1,33 @@
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
+
+<span>
+  <i class="fa-solid fa-location-dot fa-beat-fade"></i>
+  <h1>Google Maps in Angular 17</h1>
+  <i class="fa-solid fa-location-dot fa-beat-fade"></i>
+</span>
+
+<div id="border">
+  <google-map height="600px" width="100%" [options]="options">
+    @for (location of nzLocations; track location; let index = $index) {
+    <map-advanced-marker
+      #markerElem="mapAdvancedMarker"
+      [position]="{ lat: location.lat, lng: location.lng }"
+      [content]="location.content"
+      [title]="'Location ' + (index + 1)"
+      (mapClick)="onMarkerClick(markerElem)"
+    />
+    } @for (location of auLocations; track location; let index = $index) {
+    <map-advanced-marker
+      #markerElem="mapAdvancedMarker"
+      [position]="{ lat: location.lat, lng: location.lng }"
+      [content]="location.content"
+      [title]="'Location ' + (index + 1)"
+      (mapClick)="onMarkerClick(markerElem)"
+    />
+    }
+    <map-info-window #infoWindow></map-info-window>
+  </google-map>
+</div>
